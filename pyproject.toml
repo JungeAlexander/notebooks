@@ -8,6 +8,9 @@ authors = ["Alexander Junge <alexander.junge@gmail.com>"]
 python = "^3.9"
 h5py = "==3.1.0"
 transformers = {extras = ["tf", "torch", "sentencepiece", "vision", "optuna", "sklearn", "onnxruntime"], version = "^4.17.0"}
+matplotlib = "^3.5.1"
+ipywidgets = "^7.7.0"
+bertviz = "1.2.0"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.11.0"
